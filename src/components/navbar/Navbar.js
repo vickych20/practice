@@ -8,7 +8,7 @@ const Navbar = () => {
   
   
   return (
-    <div className="flex justify-between items-center h-[75px] bg-[#352F2F] text-">
+    <div className="flex justify-between items-center h-[75px] bg-[#352F2F] overflow-x-hidden">
       <h3 className="text-[30px] text-[#fff]">
         <img src={img1} alt="" className="w-[100px]" />
       </h3>

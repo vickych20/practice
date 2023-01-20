@@ -5,7 +5,7 @@ import img3 from '../images/v3.png';
 
 const Create = () => {
   return (
-    <div className="flex  justify-between items-center text-[#3d3d3d] mb-8">
+    <div className="flex  justify-between items-center text-[#3d3d3d] mb-8 ">
       <div className="w-[300px] flex flex-col justify-center items-center">
         <img src={img1} alt="" />
         <p className="py-2 text-[23px] font-600 text-[#111111]">

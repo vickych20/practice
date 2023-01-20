@@ -8,7 +8,7 @@ import { BsApple } from 'react-icons/bs'
 
 const Cimtacft = () => {
     return (
-      <div className="contact mt-[200px] scroll-none">
+      <div className="contact mt-[200px] ">
         <div className="contact mt-[200px]">
           <h1 className="flex py-[20px] justify-center items-center font-sans text-[66px] text-[#fff] download-btn">
             Contact us

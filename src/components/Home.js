@@ -36,10 +36,10 @@ const Home = () => {
         <Testimonials />
         <True />
         <Sslider />
-        <div className="">
+       
         <Cimtacft />
         
-        </div>
+    
         <Footer/>
 
       </div>

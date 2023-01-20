@@ -4,7 +4,7 @@ import { MdOutlineFamilyRestroom } from 'react-icons/md';
 
 const HomeB = () => {
   return (
-    <div className="py-8 flex justify-between items-center gap-8 m-6">
+    <div className="py-8 flex justify-between items-center gap-8 m-6 overflow-x-hidden">
       <div className="flex justify-between items-center gap-4">
         <div>
           <MdOutlineFamilyRestroom className="text-[65px] text-[#f5ca00]" />

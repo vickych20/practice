@@ -6,7 +6,7 @@ import {AiFillPlayCircle} from 'react-icons/ai'
 
 const Homec = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <div>
         <img src={bg7} alt="" className="w-full h-[70vh]" />
       </div>

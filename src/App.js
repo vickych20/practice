@@ -14,7 +14,10 @@ import "./App.css"
 const App = () => {
   return (
     <Router>
-      <First/>
+      <div className="max-md:hidden max-xl:hidden">
+        <First />
+      </div>
+      {/* */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
