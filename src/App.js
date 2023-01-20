@@ -17,8 +17,8 @@ const App = () => {
       <div className="max-md:hidden">
         <First />
       </div>
-  
       <Navbar />
+  
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profiles" element={<Profiles />} />
