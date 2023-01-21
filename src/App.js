@@ -10,6 +10,7 @@ import Navbar from "./components/navbar/Navbar";
   import Blog from "./components/Blog";
 import First from './components/First/First';
 import "./App.css"
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/stories" element={<Stories />} />
         <Route path="/pages" element={<Pages />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -7,10 +7,12 @@ import { MdMarkEmailUnread } from "react-icons/md";
 import { BsApple } from 'react-icons/bs'
 
 const Cimtacft = () => {
-    return (
+  return (
+      <div className=''>
+      
       <div className="contact mt-[200px] max-md:flex-col max-md:items-center">
         <div className="contact mt-[200px]">
-          <h1 className="flex py-[20px] justify-center items-center font-sans text-[66px] text-[#fff] download-btn">
+          <h1 className="flex justify-center items-center font-sans text-[66px] text-[#fff] download-btn">
             Contact us
           </h1>
           <div className="flex items-center justify-center gap-2">
@@ -87,6 +89,7 @@ const Cimtacft = () => {
             </div>
           </form>
         </div>
+      </div>
       </div>
     );
 }

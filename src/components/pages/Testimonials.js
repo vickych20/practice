@@ -10,8 +10,10 @@ import img2 from "../images/wb.jpg";
 const Testimonials = () => {
   return (
     <div className="test">
-      <div className="text-center test3">
-        <h1 className="text-[50px] font-serif download-btn">Testimonials</h1>
+      <div className="text-center  py-8">
+        <h1 className="text-[50px] font-serif download-btn">
+          Testimonials
+        </h1>
       </div>
       <div className="flex items-center justify-center gap-2 py-2">
         <div className="w-[100px] h-[3px] bg-[#ff8517]"></div>
@@ -25,7 +27,7 @@ const Testimonials = () => {
       </div>
       <ImageSlider effectDelay={500} autoPlayDelay={1000}>
         <Slide>
-          <div className="w-full flex flex-col justify-center py-4">
+          <div className="w-full flex flex-col justify-center py-[80px]">
             <div className="w-[150px] h-[150px] m-auto">
               <img
                 alt="ravi"
@@ -43,7 +45,7 @@ const Testimonials = () => {
           </div>
         </Slide>
         <Slide>
-          <div className="w-full flex flex-col  justify-center py-4">
+          <div className="w-full flex flex-col  justify-center py-[80px]">
             <div className="w-[150px] h-[150px] m-auto">
               <img
                 alt="img3"
@@ -61,7 +63,7 @@ const Testimonials = () => {
           </div>
         </Slide>
         <Slide>
-          <div className="w-full flex flex-col py-4">
+          <div className="w-full flex flex-col py-[80px]">
             <div className="w-[150px] h-[150px] m-auto">
               <img
                 alt="img2"

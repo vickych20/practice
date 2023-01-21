@@ -9,7 +9,7 @@ import { BsFillTelephonePlusFill } from "react-icons/bs";
 
 const First = () => {
   return (
-    <div className="w-full flex justify-center items-center py-6 gap-8">
+    <div className="w-full flex justify-around items-center py-6 gap-8">
       <div className="flex gap-4 items-center">
         <HiOutlineMail />
         <p>support@website.com</p>

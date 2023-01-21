@@ -3,10 +3,14 @@ import img1 from '../images/hie.jpg';
 import img2 from '../images/hk1.jpg';
 import img3 from '../images/hy1.jpg';
 import img4 from '../images/htr3.jpg';
+import './ss.css';
 
 const HomeProf = () => {
   return (
-    <div className="flex-wrap flex items-center justify-center gap-4 m-8 max-md:flex-col max-md:items-start max-sm:items-center">
+    <div
+      className="flex-wrap flex items-center justify-center gap-4 m-8 max-md:flex-col max-md:items-start max-sm:items-center vicky max-2xl:justify-center max-2xl:items-center"
+     
+    >
       <div className="w-[300px] border-[1px] border-gray-100 shadow-md hover:shadow-2xl">
         <div>
           <img src={img1} alt="" className="hover:shadow-2xl" />

@@ -11,12 +11,11 @@
     background-image: url('../images/last.png');
     background-size: cover;
     width:100%;
+    overflow-x: hidden;
   
 
-    overflow-x: hidden;
 }
-.contact::-webkit-scrollba{
-    display: none;
-
-   
+.vicky{
+    display: -webkit-box;
+    display: flex;
 }

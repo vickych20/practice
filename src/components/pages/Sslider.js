@@ -24,7 +24,7 @@ const Sslider = () => {
 
   return (
     <div>
-      <div className="App">
+      <div className="App flex justify-center items-center">
         <motion.div ref={carousel} className="carousel select-none" whileTap={{cursor:"grabbing"}}>
           <motion.div drag="x" dragConstraints={{right:0,left:-width}} className="inner-carousel flex">
             {image.map((items) => {
