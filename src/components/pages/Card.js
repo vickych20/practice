@@ -8,7 +8,7 @@ import { FaComments } from "react-icons/fa";
 
 const Card = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center">
+    <div className="flex flex-wrap justify-center items-center max-md:flex-col max-md:items-start max-sm:items-center">
       <div className="w-[300px] m-4 shadow-lg">
         <div>
           <img src={img3} alt="" className="" />

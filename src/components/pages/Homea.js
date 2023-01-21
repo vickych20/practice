@@ -1,14 +1,15 @@
 import React from 'react';
 import img1 from '../images/01.jpg';
+import './ss.css'
 
 const Homea = () => {
   return (
-    <div className="flex justify-center items-center gap-4 m-8">
-      <div className="w-[50%]">
+    <div className="flex justify-center items-center gap-4 m-8 max-md:flex-col">
+      <div className="w-[50%]max-md:w-full">
         <img src={img1} alt="" />
       </div>
-      <div className="w-[50%]">
-        <h1 className="text-[40px] font-400 text-[#3d3d3d]">Founded In 1990</h1>
+      <div className="w-[50%] max-md:w-full">
+        <h1 className="text-[40px] font-400 text-[#3d3d3d] max-md:text-[20px]">Founded In 1990</h1>
         <h2 className="text-[#f5ca00] text-[25px]">
           A World Of Infinite Opportunities
         </h2>

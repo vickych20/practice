@@ -9,7 +9,7 @@ import { BsApple } from 'react-icons/bs';
 
 const Download = () => {
   return (
-    <div className="back">
+    <div className="back max-md:flex-col max-md:items-start max-sm:items-center">
       <div className="text-center text-[#fff]">
         <div>
           <p className="text-[45px] pt-[6rem] download-btn">Download Our App</p>
@@ -26,7 +26,7 @@ const Download = () => {
           <h1 className="pt-[4rem] text-[45px] download-btn">
             Want To Find Your Match..!! Get Our App Now.
           </h1>
-          <div className="flex justify-center items-center gap-8">
+          <div className="flex justify-center items-center gap-8 max-md:flex-col max-md:items-start max-sm:items-center">
             <button className="btn rounded-full flex items-center gap-2">
               <div>
                 <BsApple className="text-[29px]" />
@@ -46,7 +46,7 @@ const Download = () => {
               </div>
             </button>
           </div>
-          <div className="flex justify-start items-center pt-[10vh]">
+          <div className="flex justify-start items-center pt-[10vh] max-md:flex-col max-md:items-start max-sm:items-center">
             <div className="imgat"></div>
             <div className="px-8">
               <p className="text-[115px] mt-[30px] text-[#ffbc05]">1600</p>

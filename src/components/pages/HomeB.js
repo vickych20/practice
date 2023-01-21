@@ -4,7 +4,7 @@ import { MdOutlineFamilyRestroom } from 'react-icons/md';
 
 const HomeB = () => {
   return (
-    <div className="py-8 flex justify-between items-center gap-8 m-6 overflow-x-hidden">
+    <div className="py-8 flex justify-center items-center gap-8 m-6 overflow-x-hidden max-md:flex-col max-md:items-start">
       <div className="flex justify-between items-center gap-4">
         <div>
           <MdOutlineFamilyRestroom className="text-[65px] text-[#f5ca00]" />
@@ -14,7 +14,7 @@ const HomeB = () => {
           <p className="text-[18px]">Total member</p>
         </div>
       </div>
-      <div className="py-8 flex justify-between items-center gap-8">
+      <div className="py-8 flex justify-center items-center gap-8">
         <div className="flex justify-between items-center gap-4">
           <MdOutlineFamilyRestroom className="text-[65px] text-[#f5ca00]" />
         </div>

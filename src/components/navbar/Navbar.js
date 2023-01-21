@@ -8,11 +8,13 @@ const Navbar = () => {
   
   
   return (
-    <div className="flex justify-between items-center h-[75px] bg-[#352F2F] overflow-x-hidden">
+    <div className="w-full bg-[#352F2F]">
+
+    <div className="flex justify-center items-center  h-[75px]  overflow-x-hidden max-2xl:justify-center max-w-[1200px] m-auto">
       <h3 className="text-[30px] text-[#fff]">
         <img src={img1} alt="" className="w-[100px]" />
       </h3>
-      <ul className="flex justify-end list-none w-[75%] text-[16px] font-500	uppercase">
+      <ul className="menu flex justify-end list-none w-[75%] text-[16px] font-500	uppercase">
         <Link
           to="/"
           className="text-[#fff] text-[15px] p-[1rem] cursor-pointer"
@@ -98,6 +100,7 @@ const Navbar = () => {
           </li>
         </Link>
       </ul>
+    </div>
     </div>
   );
 };

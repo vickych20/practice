@@ -10,7 +10,7 @@ import img2 from "../images/wb.jpg";
 const Testimonials = () => {
   return (
     <div className="test">
-      <div className="text-center">
+      <div className="text-center test3">
         <h1 className="text-[50px] font-serif download-btn">Testimonials</h1>
       </div>
       <div className="flex items-center justify-center gap-2 py-2">
@@ -23,7 +23,62 @@ const Testimonials = () => {
       <div className="flex items-center justify-center">
         <div className="w-[130px] h-[3px] bg-[#ff8517]"></div>
       </div>
-      
+      <ImageSlider effectDelay={500} autoPlayDelay={1000}>
+        <Slide>
+          <div className="w-full flex flex-col justify-center py-4">
+            <div className="w-[150px] h-[150px] m-auto">
+              <img
+                alt="ravi"
+                src={ravi}
+                className="h-full w-full rounded-full"
+              />
+            </div>
+            <div className="w-[70%] m-auto text-[#fff]">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorem laboriosam aperiam eum numquam quo? Quas architecto,
+                officia voluptates temporibus sed reprehenderit minus soluta?
+              </p>
+            </div>
+          </div>
+        </Slide>
+        <Slide>
+          <div className="w-full flex flex-col  justify-center py-4">
+            <div className="w-[150px] h-[150px] m-auto">
+              <img
+                alt="img3"
+                src={img3}
+                className="h-full w-full rounded-full"
+              />
+            </div>
+            <div className="w-[70%] m-auto text-[#fff] text-center">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorem laboriosam aperiam eum numquam quo? Quas architecto,
+                officia voluptates temporibus sed reprehenderit minus soluta?
+              </p>
+            </div>
+          </div>
+        </Slide>
+        <Slide>
+          <div className="w-full flex flex-col py-4">
+            <div className="w-[150px] h-[150px] m-auto">
+              <img
+                alt="img2"
+                src={img2}
+                className="h-full w-full rounded-full"
+              />
+            </div>
+            <div className="w-[70%] m-auto text-[#fff]">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolorem laboriosam aperiam eum numquam quo? Quas architecto,
+                officia voluptates temporibus sed reprehenderit minus soluta?
+              </p>
+            </div>
+          </div>
+        </Slide>
+      </ImageSlider>
     </div>
   );
 }

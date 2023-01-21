@@ -8,7 +8,7 @@ import { BsApple } from 'react-icons/bs'
 
 const Cimtacft = () => {
     return (
-      <div className="contact mt-[200px] ">
+      <div className="contact mt-[200px] max-md:flex-col max-md:items-center">
         <div className="contact mt-[200px]">
           <h1 className="flex py-[20px] justify-center items-center font-sans text-[66px] text-[#fff] download-btn">
             Contact us
@@ -20,14 +20,14 @@ const Cimtacft = () => {
             </div>
             <div className="w-[100px] h-[3px] bg-[#ff8517]"></div>
           </div>
-          <div className="w-[80%] m-auto text-[18px] font-sans text-[#fff]">
+          <div className="w-[80%] m-auto text-[18px] font-sans text-[#fff] text-center">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
               quod nostrum, illo doloremque quis quas atque voluptas dignissimos
               saepe ipsa voluptatum nulla debitis.
             </p>
           </div>
-          <div className="flex justify-center items-center text-[#fff] gap-8 py-8">
+          <div className="flex justify-center items-center text-[#fff] gap-8 py-8 max-md:flex-col max-md:items-start max-sm:items-start">
             <div>
               <MdMarkEmailUnread className="text-[30px] text-[#ff8517] mb-4" />
               <p>kumarvicky2617@gmail.com</p>
@@ -47,8 +47,11 @@ const Cimtacft = () => {
           <div className="flex items-center justify-center gap-2">
             <div className="w-[100px] h-[3px] bg-[#ff8517]"></div>
           </div>
-          <form action="">
-            <div className="flex justify-around items-center py-8">
+          <form
+            action=""
+            className="max-md:flex-col max-md:items-start max-sm:items-center"
+          >
+            <div className="flex justify-center items-center py-8">
               <div className="border-b-2 border-yellow-600 py-4 w-[300px]">
                 <input
                   type="text"
@@ -64,7 +67,7 @@ const Cimtacft = () => {
                 />
               </div>
             </div>
-            <div className="flex justify-start items-center absolute]">
+            <div className="flex justify-center items-center absolute]">
               <textarea
                 name=""
                 id=""

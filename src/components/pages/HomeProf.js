@@ -6,7 +6,7 @@ import img4 from '../images/htr3.jpg';
 
 const HomeProf = () => {
   return (
-    <div className="grid flex-wrap lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-4 m-8">
+    <div className="flex-wrap flex items-center justify-center gap-4 m-8 max-md:flex-col max-md:items-start max-sm:items-center">
       <div className="w-[300px] border-[1px] border-gray-100 shadow-md hover:shadow-2xl">
         <div>
           <img src={img1} alt="" className="hover:shadow-2xl" />
