@@ -4,3 +4,11 @@
 *{
     font-family: 'Source Sans Pro', sans-serif;
 }
+.backy{
+    background-image: url('../images/bg-7.jpg');
+    background-size:cover;
+    width: 100%;
+ 
+
+
+}

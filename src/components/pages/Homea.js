@@ -4,8 +4,8 @@ import './ss.css'
 
 const Homea = () => {
   return (
-    <div className="flex justify-center items-center gap-4 m-8 max-md:flex-col">
-      <div className="w-[50%]max-md:w-full">
+    <div className="flex justify-center items-center gap-4 my-8 max-md:flex-col max-w-[1170px] mx-auto">
+      <div className="w-[50%] max-md:justify-center">
         <img src={img1} alt="" />
       </div>
       <div className="w-[50%] max-md:w-full">

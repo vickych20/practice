@@ -5,15 +5,17 @@ import ImageSlider, { Slide } from "react-auto-image-slider";
 import ravi from "../images/w.jpg";
 import img3 from "../images/wa.jpg";
 import img2 from "../images/wb.jpg";
+import img4 from '../images/rss.jpg'
 
 
 const Testimonials = () => {
   return (
-    <div className="test">
+    <div
+      className="relative overflow-x-hidden h-[300px] bg-cover bg-center"
+      style={{ backgroundImage: `url(${img4})` }}
+    >
       <div className="text-center  py-8">
-        <h1 className="text-[50px] font-serif download-btn">
-          Testimonials
-        </h1>
+        <h1 className="text-[50px] font-serif download-btn">Testimonials</h1>
       </div>
       <div className="flex items-center justify-center gap-2 py-2">
         <div className="w-[100px] h-[3px] bg-[#ff8517]"></div>

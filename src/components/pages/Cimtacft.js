@@ -29,7 +29,7 @@ const Cimtacft = () => {
               saepe ipsa voluptatum nulla debitis.
             </p>
           </div>
-          <div className="flex justify-center items-center text-[#fff] gap-8 py-8 max-md:flex-col max-md:items-start max-sm:items-start">
+          <div className="flex justify-center items-center text-[#fff] gap-8 py-8 max-md:flex-col max-md:items-start max-sm:items-center ">
             <div>
               <MdMarkEmailUnread className="text-[30px] text-[#ff8517] mb-4" />
               <p>kumarvicky2617@gmail.com</p>

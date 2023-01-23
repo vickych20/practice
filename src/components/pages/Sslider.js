@@ -29,7 +29,7 @@ const Sslider = () => {
           <motion.div drag="x" dragConstraints={{right:0,left:-width}} className="inner-carousel flex">
             {image.map((items) => {
               return (
-                <motion.div className="item h-[20rem] w-[20rem] p-[10px] pointer-events-none" key={image}>
+                <motion.div className="item h-[20rem] w-[20rem] p-[10px] pointer-events-none max-md:mt-[100px]" key={image}>
                   <img
                     src={items}
                     alt=""
