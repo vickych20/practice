@@ -21,7 +21,7 @@ import Footer from './pages/Footer';
 const Home = () => {
     return (
       <div className="overflow-x-hidden">
-        <Homee />
+        <Homee/>
         <Home_flex />
         <Homea />
         <HomeB />

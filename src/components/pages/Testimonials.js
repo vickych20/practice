@@ -5,7 +5,7 @@ import ImageSlider, { Slide } from "react-auto-image-slider";
 import ravi from "../images/w.jpg";
 import img3 from "../images/wa.jpg";
 import img2 from "../images/wb.jpg";
-import img4 from '../images/rss.jpg'
+import img4 from '../images/rss.jpg';
 
 
 const Testimonials = () => {

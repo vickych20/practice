@@ -9,7 +9,7 @@ const Stories = () => {
   return (
     <Swiper
       spaceBetween={5}
-      slidesPerView={2}
+      slidesPerView={3}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
