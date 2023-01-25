@@ -11,7 +11,7 @@ import img4 from '../images/rss.jpg';
 const Testimonials = () => {
   return (
     <div
-      className="relative overflow-x-hidden h-[300px] bg-cover bg-center"
+      className="relative overflow-x-hidden max-h-[700px] bg-cover bg-center"
       style={{ backgroundImage: `url(${img4})` }}
     >
       <div className="text-center  py-8">
