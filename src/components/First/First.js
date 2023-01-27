@@ -5,6 +5,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BsLifePreserver } from "react-icons/bs";
 import { BsFillTelephonePlusFill } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 
 const First = () => {
@@ -24,9 +25,10 @@ const First = () => {
           <BsLifePreserver />
         </div>
         <div className="flex gap-4 items-center">
-          <p>Register</p>
+          <Link to="/login">Login</Link>
+
           <span className="h-[20px] w-[2px] bg-black"></span>
-          <p>login</p>
+          <Link to="/register">Register</Link>
         </div>
       </div>
     </div>

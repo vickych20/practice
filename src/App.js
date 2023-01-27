@@ -11,12 +11,21 @@ import Navbar from "./components/navbar/Navbar";
 import First from './components/First/First';
 import "./App.css"
 import Contact from './components/Contact';
+import Login from './components/Login';
+import Register from './components/Register';
 
 const App = () => {
   return (
+    <>
     <Router>
       <div className="max-md:hidden">
-        <First />
+          <First />
+          <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register/>} />
+            
+          </Routes>
+          
       </div>
       <Navbar />
   
@@ -28,7 +37,12 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+      </Router>
+      
+    
+        
+    
+    </>
   );
 }
 
